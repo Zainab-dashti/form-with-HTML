@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+       
+       
+        <form method="post">
+            <h1>Registration Form </h1>
+
+            <fieldset>
+          <legend>Personal Information</legend>
+         <label for="Name"> Student Name:-</label>
+         <input type="text" name="Name" placeholder=" Enter Your Name" required>
+           <br> <br>
+
+         <label for="Father Name">Father Name:-</label>
+         <input type="text" name="Father Name" placeholder=" Enter Your Father Name" required>
+             <br> <br>
+
+             <label for="DOB"> Date of Birth</label>
+             <input type="data" name="dob">
+             <br><br>
+
+             <label>Gender</label>
+             <input type="radio" name="gender" value="male">
+             <label for="male">Male</label>
+             <input type="radio" name="gender" value="female">
+             <label for="female">Female</label>
+            
+              <br> <br>
+
+             <label for="cnic">CNIC:-</label>
+             <input type="text" name="cnic" placeholder="XXXXXXXXXXXXXXX">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+             
+            <label for="Email">Email:-</label>
+             <input type="email" name="email" placeholder="Enter Your Email" required>
+
+             <br><br>
+            
+             <label for="Phone">Phone:-</label>
+             <input type="tel" name="phone" placeholder="03XXXXXXXX" required>
+<br><br>
+              <label for="address">Address</label>
+              <textarea name="address" rows="4" cols="40" ></textarea>
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education Information</legend>
+
+            <label for="education">Education:-</label>
+            <select name="education" >
+                <option value="Matriculation">Matriculation</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Bacherlors">Bacherlors</option>
+                <option value="Masters">Masters</option>
+                <option value="Phd">Phd</option>
+            </select>
+            <br><br>
+
+            <label for="institute">Institute:-</label>
+            <input type="text" placeholder="Enter Your Institute">
+            <br><br>
+
+            <label for="marks">Percentage</label>
+            <input type="number" min="50" max="100" placeholder="Enter Percentage">
+        </fieldset>
+
+        <fieldset>
+            <legend>Course Information</legend>
+            <label for="course">Select Course</label>
+            <select name="course" id="">
+                <option value="" disabledselected>select course</option>
+                <option >Web developmnet</option>
+                <option >graphics</option>
+                <option >Ui Ux</option>
+            </select>
+<br><br>
+            <label >Skills:-</label> 
+            <input type="checkbox" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" value="CSS">
+            <label for="css">CSS</label>
+
+            <br><br>
+                    </fieldset>
+
+     <fieldset>
+        <legend>Upload Documents</legend>
+     
+            <label for="photo">Upload Photo</label>
+            <input type="file" name="photo" accept="image/*">
+         <br> <br>
+
+         <label for="document">Upload Document</label>
+         <input type="file" name="file" accept=".pdf,.doc,.docx">
+        </fieldset>
+
+         <fieldset>
+            <legend>Additional Information</legend>
+            <label for="color">Choose Fav Color</label>
+            <input type="color" name="color">
+            <br><br>
+
+            
+         </fieldset>
+         <input type="checkbox" name="terms" required>
+            <label for="terms">I agree the terms and conditions</label>
+        
+         <br><br>
+
+         <input type="submit" value="Submit"> &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <input type="reset" value="Reset">
+        </form>
+
+
+
+    </center>
+</body>
+</html>
